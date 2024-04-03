@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="Test_Tweets_Styles.css">
+
+<script type="text/javascript" src="jquery-3.6.2.min.js"></script>
+<script type="text/javascript" src="Test_Tweets.js"></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="container">
+        <audio controls name="News_Song" src="audio/ROYALTY FREE Breaking News Music _ News Intro Music Royalty Free _ News Opener Music Royalty Free.webm" loop="true" hidden="true" autoplay="true"></audio>
+        <header>
+            <div class="fakertitle">
+                FAKER
+                <div>FAKER</div>
+                <div>FAKER</div>
+                <div>FAKER</div>
+                <div>FAKER</div>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h1>
+                    Test Tweets
+                </h1>
+            </div>
+            <div id="main_TestTw_div">
+                <label for="url">Enter Tweet's Id:</label><br>
+                <input id="tweet_link" type="text">
+                <div class="space_button"  id="divSearchButton">
+                    <button onclick="SearchTweet()" id="Search_Tweet_button" class = "bSearchTweets">Search</button>
+                </div>
+            </div>
+            
+            <div class="space_button" id="divTestButton" hidden>
+                        <button onclick='TestTweetFunction()'  id="Test_Tweet_button" class = "bTestTweets"  disabled>Test</button>
+            </div>
+            <div class="space_button">
+                <a href="home.html">
+                    <button class = "bHome">Home</button>
+                </a>
+            </div>
+            
+        </main>
+       
+</body>
+
+</html>
+

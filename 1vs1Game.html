@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="1vs1GameStyles.css">
+<script src="1vs1GameScript.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="container">
+    <audio controls name="News_Song" src="audio/ROYALTY FREE Breaking News Music _ News Intro Music Royalty Free _ News Opener Music Royalty Free.webm" loop="true" hidden="true" autoplay="true"></audio>
+    <header>
+        <div class="fakertitle">
+            FAKER
+            <div>FAKER</div>
+            <div>FAKER</div>
+            <div>FAKER</div>
+            <div>FAKER</div>
+          </div>
+    </header>
+    <main>
+        <div>
+            <h1>1 vs 1 Game</h1>
+        </div>
+        <div id="roundSelectionDiv">
+            <label>Select how many rounds you want to play:</label>
+            <select id="maxRoundId">
+                <option>3</option>
+                <option>5</option>
+                <option>7</option>
+            </select>
+        </div>
+        <div id="mainDiv_1vs1Game">
+            <label id="roundLabel">Round 1</label><br>
+            <label id="createTweetLabel" for="url">Player 1 create your Fake Tweet:</label><br>
+            <input id="tweet_Tweet" class="textbox" placeholder="Tweet" type="text"><br>
+            <input id="tweet_Reply_Num" class="textbox" onkeypress="return onlyNumberKey(event)"  placeholder="Reply Number" type="text"><br>
+            <input id="tweet_Retweet_Num" class="textbox" onkeypress="return onlyNumberKey(event)"  placeholder="Retweet Number" type="text"><br>
+            <input id="tweet_Like_Num" class="textbox" onkeypress="return onlyNumberKey(event)"  placeholder="Like Number" type="text"><br>
+            <label id="pickRealFakeLabel">Player 2 quess if the tweet is real or fake:</label><br>
+            <input type="radio" id="real" name="real_fake_tweet" value="true">
+            <label for="real" class="selection_label">REAL</label><br>
+            <input type="radio" id="fake" name="real_fake_tweet" value="false">
+            <label for="fake" class="selection_label">FAKE</label>
+        </div>
+        <div id="pvpGamePlayRoundButton" class="space_button">
+            <button onclick="PvPGameFunction()" class = "bPlay">Play</button>
+        </div>
+        <div class="space_button">
+            <a href="home.html">
+                <button class = "bHome">Home</button>
+            </a>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

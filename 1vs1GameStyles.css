@@ -1,0 +1,105 @@
+  .pTrue{
+    color: chartreuse;
+  }
+  
+  .pFalse{
+    color:#FF013C;
+  }
+
+  #maxRoundId{
+    font-size: 50%;
+  }
+
+  label{
+   font-size: 80%;
+  }
+
+  input{
+    width: 60%;
+  }
+
+  #real{
+    width: auto;
+  }
+
+  #fake{
+    width: auto;
+  }
+
+  .selection_label{
+    font-size: 70%;
+  }
+
+  .bPlay::after{
+    content: 'Play';
+  }
+  
+  #roundLabel{
+    color:yellow;
+  }
+
+  #maxRoundId{
+    background-color:rgb(255, 255, 255);
+    border-radius:15px;
+    border:1px solid red
+  }
+
+  .textbox{
+    border-radius:15px;
+    margin-bottom: 1px;
+    border:1px solid red
+  }
+
+  @media screen and (min-width:450px){
+    input{
+        width: 65%;
+    }
+
+    .selection_label{
+        font-size: 100%;
+      }
+
+      label{
+        font-size: 100%;
+       }
+
+       #maxRoundId{
+        font-size: 100%;
+      }
+  }
+
+  @media screen and (min-width:700px){
+    input{
+        width: 65%;
+    }
+
+    .selection_label{
+        font-size: 130%;
+      }
+
+      label{
+        font-size: 150%;
+       }
+
+       #maxRoundId{
+        font-size: 100%;
+      }
+  }
+  
+  @media screen and (min-width:900px){
+    input{
+        width: 45%;
+    }
+
+    .selection_label{
+        font-size: 150%;
+    }
+
+    label{
+      font-size: 200%;
+    }
+
+    #maxRoundId{
+      font-size: 150%;
+    }
+  }

@@ -1,0 +1,42 @@
+.pTrue{
+    color: chartreuse;
+  }
+  
+  .pFalse{
+
+    color:#FF013C;
+  }
+
+  input{
+    width: 60%;
+  }
+
+  .bTestTweets::after{
+    content: 'Test';
+  }
+
+  .bSearchTweets::after{
+    content: 'Search';
+  }
+  
+  #tweet_link{
+    border-radius:15px;
+  }
+
+  @media screen and (min-width:450px){
+    input{
+        width: 65%;
+    }
+  }
+  
+  @media screen and (min-width:700px){
+    input{
+        width: 70%;
+    }
+  }
+  
+  @media screen and (min-width:900px){
+    input{
+        width: 45%;
+    }
+  }
